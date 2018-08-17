@@ -1,0 +1,9 @@
+﻿<Window x:Class="RT.Chamber"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chamber" Height="300" Width="300">
+    <Grid>
+        <Label Content="Chamber" HorizontalAlignment="Left" Margin="29,96,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

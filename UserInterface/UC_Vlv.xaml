@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="RT.UserInterface.UC_Vlv"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="19.25" Width="25.25">
+    <Grid Background="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Margin="3,0,0,5">
+        <Border x:Name="iBorderColor" BorderThickness="1" HorizontalAlignment="Left" Height="14" VerticalAlignment="Top" Width="22" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+        <Label Content="X" FontSize="8" Margin="4,-4,0,-2" />
+        <Label Content="XXX" Foreground="White" Name="iName2" FontSize="9" Margin="19,-4,-24,-2" />
+        <Label Content="000" Foreground="White" Name="iName" FontSize="9" Margin="-24,-4,20,-2" />
+    </Grid>
+
+</UserControl>

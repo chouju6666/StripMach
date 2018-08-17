@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TinyMapper</id>
+    <version>2.0.8</version>
+    <title>TinyMapper</title>
+    <authors>Sergey Morenko</authors>
+    <owners>Sergey Morenko</owners>
+    <licenseUrl>https://github.com/TinyMapper/TinyMapper/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://tinymapper.net/</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/cfffd78dd57d31992a0052c6786cdc3d</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TinyMapper - a tiny and quick object mapper for .Net.</description>
+    <summary />
+    <releaseNotes>fixed: DeepCloneable member binding with custom mapping
+
+Thanks to: Gaclaudiu</releaseNotes>
+    <language>en-US</language>
+    <tags>TinyMapper Mapper</tags>
+  </metadata>
+</package>

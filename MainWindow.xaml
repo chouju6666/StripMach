@@ -1,0 +1,50 @@
+﻿<Window 
+    x:Class="RT.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mdi="clr-namespace:WPF.MDI;assembly=WPF.MDI"
+    Title="TS System" Height="460.665" Width="1155.641" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowState="Maximized" Loaded="Window_Loaded" AllowDrop="False" Closing="Window_Closing">
+    <DockPanel>
+        <mdi:MdiContainer Name="Container" IsVisibleChanged="Container_IsVisibleChanged">
+            <mdi:MdiContainer.Menu>
+                <Menu Name="MainMenu" VerticalAlignment="Top" DockPanel.Dock="Top">
+                    <MenuItem Header="Overall" x:Name="Overall">
+                        <MenuItem Header="{DynamicResource Func_OverView}" Name="OverView" Click="AddWindow_Click"/>
+                        <MenuItem Header="{DynamicResource Func_Chamber}" Name="Chamber" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_TM_LL}" Name="TM_LL" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_EndPoint}" Name="EndPoint" Click="AddWindow_Click" />
+                    </MenuItem>
+                    <MenuItem Header="Recipe">
+                        <MenuItem Header="{DynamicResource Func_RecipeEditor}" Name="RecipeEditor" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_SequenceEditor}" Name="SequenceEditor" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_RecipeConfig}" Name="RecipeConfig" Click="AddWindow_Click" />
+                    </MenuItem>
+                    <MenuItem Header="Configuration">
+                        <MenuItem Header="{DynamicResource Func_EquipmentConstant}" Name="EC" Click="AddWindow_Click"/>
+                        <MenuItem Header="{DynamicResource Func_LeakCheck}" Name="LeakCheck" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_RFCalibration}" Name="RFCalibration" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_GasVerification}" Name="GasVerification" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_IOList}" Name="IOList" Click="AddWindow_Click" />
+                    </MenuItem>
+                    <MenuItem Header="Manage">
+                        <MenuItem Header="{DynamicResource Func_User}" Name="UserList" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_Role}" Name="AccRole" Click="AddWindow_Click" />
+                    </MenuItem>
+                    <MenuItem Header="System">
+                        <MenuItem Header="{DynamicResource Func_About}" Name="About" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_LogOut}" Name="LogOut" Click="AddWindow_Click" />
+                        <MenuItem Header="{DynamicResource Func_Exit}" Name="Exit" Click="AddWindow_Click" />
+                    </MenuItem>
+                    <MenuItem Header="Layout">
+                        <MenuItem Header="Cascade" Click="ChangeLayout_Click" />
+                        <MenuItem Header="TileHorizontal" Click="ChangeLayout_Click" />
+                        <MenuItem Header="TileVertical" Click="ChangeLayout_Click" />
+                    </MenuItem>
+                    <MenuItem Header="User" Name="UserName" Background="GreenYellow">
+                    </MenuItem>
+                    <MenuItem Header="" x:Name="NowTime"  />
+                </Menu>
+            </mdi:MdiContainer.Menu>
+        </mdi:MdiContainer>
+    </DockPanel>
+</Window>

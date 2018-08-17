@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="RT.UserInterface.UC_Cassette"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="91.5" Width="35.5">
+    <Grid Margin="3,0">
+        <Border x:Name="iBorderColor3_Copy0" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,17,0,0"/>
+        <Border x:Name="iBorderColor3_Copy1" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,20,0,0"/>
+        <Border x:Name="iBorderColor3_Copy2" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,23,0,0"/>
+        <Border x:Name="iBorderColor3_Copy3" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,26,0,0"/>
+        <Border x:Name="iBorderColor3_Copy4" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,29,0,0"/>
+        <Border x:Name="iBorderColor3_Copy5" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,32,0,0"/>
+        <Border x:Name="iBorderColor3_Copy6" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,35,0,0"/>
+        <Border x:Name="iBorderColor3_Copy7" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,38,0,0"/>
+        <Border x:Name="iBorderColor3_Copy8" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,41,0,0"/>
+        <Border x:Name="iBorderColor3_Copy9" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,44,0,0"/>
+        <Border x:Name="iBorderColor3_Copy10" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,47,0,0"/>
+        <Border x:Name="iBorderColor3_Copy11" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,50,0,0"/>
+        <Border x:Name="iBorderColor3_Copy12" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,53,0,0"/>
+        <Border x:Name="iBorderColor3_Copy13" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,56,0,0"/>
+        <Border x:Name="iBorderColor3_Copy14" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,59,0,0"/>
+        <Border x:Name="iBorderColor3_Copy15" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,62,0,0"/>
+        <Border x:Name="iBorderColor3_Copy16" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,65,0,0"/>
+        <Border x:Name="iBorderColor3_Copy17" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,68,0,0"/>
+        <Border x:Name="iBorderColor3_Copy18" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,71,0,0"/>
+        <Border x:Name="iBorderColor3_Copy19" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,74,0,0"/>
+        <Border x:Name="iBorderColor3_Copy20" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,77,0,0"/>
+        <Border x:Name="iBorderColor3_Copy21" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,80,0,0"/>
+        <Border x:Name="iBorderColor3_Copy22" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,83,0,0"/>
+        <Border x:Name="iBorderColor3_Copy23" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,86,0,0"/>
+        <Border x:Name="iBorderColor3_Copy24" BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="3" VerticalAlignment="Top" Width="30" Background="#FF978989" Margin="0,89,0,0"/>
+        <Label x:Name="iName" Content="Cassette ID" FontSize="8" HorizontalAlignment="Left" Margin="-8,-6,-14,0" VerticalAlignment="Top" Width="52"/>
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LiveCharts.Geared</id>
+    <version>1.2.9</version>
+    <title>LiveCharts.Geared</title>
+    <authors>Beto Rodriguez</authors>
+    <owners>Beto Rodriguez</owners>
+    <licenseUrl>https://lvcharts.net/licensing/GearedWpfVersion1Eula</licenseUrl>
+    <projectUrl>http://lvcharts.net/</projectUrl>
+    <iconUrl>http://lvcharts.net/Content/Images/Logos/lcred.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>High performance package for Live-Charts</description>
+    <summary />
+    <releaseNotes>See https://github.com/beto-rodriguez/Live-Charts/releases</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Chart Charting Plot Plotting Wpf</tags>
+    <dependencies>
+      <dependency id="LiveCharts" version="0.9.7" />
+      <dependency id="LiveCharts.Wpf" version="0.9.7" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieGUI", "PieGUI.csproj", "{02D765D2-49E6-4AF2-AF45-B881D252A237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieRT", "..\PieRT\PieRT.csproj", "{4280EFDD-2F33-4FD3-9B5A-38A41306CEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.Core.Pipes", "..\PipesClientTest\Clifton.Core.Pipes\Clifton.Core.Pipes.csproj", "{B826097C-CC24-4CAC-8D31-8A65C4B76BE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02D765D2-49E6-4AF2-AF45-B881D252A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D765D2-49E6-4AF2-AF45-B881D252A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D765D2-49E6-4AF2-AF45-B881D252A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D765D2-49E6-4AF2-AF45-B881D252A237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4280EFDD-2F33-4FD3-9B5A-38A41306CEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4280EFDD-2F33-4FD3-9B5A-38A41306CEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4280EFDD-2F33-4FD3-9B5A-38A41306CEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4280EFDD-2F33-4FD3-9B5A-38A41306CEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B826097C-CC24-4CAC-8D31-8A65C4B76BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B826097C-CC24-4CAC-8D31-8A65C4B76BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B826097C-CC24-4CAC-8D31-8A65C4B76BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B826097C-CC24-4CAC-8D31-8A65C4B76BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

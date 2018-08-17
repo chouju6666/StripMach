@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Username">ユーザー</system:String>
+    <system:String x:Key="Password">パスワード</system:String>
+    <system:String x:Key="close">閉じる</system:String>
+    <system:String x:Key="French">French</system:String>
+    <system:String x:Key="English">English</system:String>
+    <system:String x:Key="Exit">離れる</system:String>
+    <system:String x:Key="Login">ログイン</system:String>
+    <system:String x:Key="Save">保存する</system:String>
+
+    <system:String x:Key="Func_OverView">ホームページ</system:String>
+    <system:String x:Key="Func_Chamber">キャビティ</system:String>
+    <system:String x:Key="Func_TM_LL">転送領域</system:String>
+    <system:String x:Key="Func_EndPoint">スペクトル</system:String>
+    <system:String x:Key="Func_RecipeEditor">レシピエディタ</system:String>
+    <system:String x:Key="Func_SequenceEditor">シーケンスエディタ</system:String>
+    <system:String x:Key="Func_RecipeConfig">レシピ設定</system:String>
+    <system:String x:Key="Func_EquipmentConstant">装置定数</system:String>
+    <system:String x:Key="Func_LeakCheck">リークチェック</system:String>
+    <system:String x:Key="Func_RFCalibration">RF較正</system:String>
+    <system:String x:Key="Func_GasVerification">ガスの確認</system:String>
+    <system:String x:Key="Func_IOList">出力入力</system:String>
+    <system:String x:Key="Func_User">用户</system:String>
+    <system:String x:Key="Func_Role">角色</system:String>
+    <system:String x:Key="Func_About">关于</system:String>
+    <system:String x:Key="Func_LogOut">登出</system:String>
+    <system:String x:Key="Func_Exit">離れる</system:String>
+</ResourceDictionary>

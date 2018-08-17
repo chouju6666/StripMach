@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<Data>
+  <Users>
+    <User>
+      <name>chou</name>
+      <password>l9FKFK9dDu40o9abnMfn7w==</password>
+      <mail>Admin@ss.ss</mail>
+      <role>Admin</role>
+      <AutoLogoutTime>1</AutoLogoutTime>
+    </User>
+    <User>
+      <name>tony</name>
+      <password>l9FKFK9dDu40o9abnMfn7w==</password>
+      <mail>Admin@ss.ss</mail>
+      <role>Admin</role>
+      <AutoLogoutTime>1</AutoLogoutTime>
+    </User>
+  </Users>
+  <Roles>
+    <Role name='Admin'>
+      <pages>
+        <page authority='2'>OverView</page>
+        <page authority='2'>Chamber</page>
+        <page authority='2'>TM_LL</page>
+        <page authority='2'>EndPoint</page>
+        <page authority='2'>RecipeEditor</page>
+        <page authority='2'>SequenceEditor</page>
+        <page authority='2'>RecipeConfig</page>
+        <page authority='2'>EC</page>
+        <page authority='2'>LeakCheck</page>
+        <page authority='2'>RFCalibration</page>
+        <page authority='2'>GasVerification</page>
+        <page authority='2'>IOList</page>
+        <page authority='2'>UserList</page>
+        <page authority='2'>AccRole</page>
+        <page authority='2'>About</page>
+      </pages>
+    </Role>
+    <Role name='Operator' AutoLogoutTime ='1'>
+      <pages>
+        <page authority='1'>OverView</page>
+        <page authority='1'>Chamber</page>
+        <page authority='0'>TM_LL</page>
+        <page authority='0'>EndPoint</page>
+        <page authority='0'>RecipeEditor</page>
+        <page authority='0'>SequenceEditor</page>
+        <page authority='0'>RecipeConfig</page>
+        <page authority='0'>EC</page>
+        <page authority='0'>LeakCheck</page>
+        <page authority='0'>RFCalibration</page>
+        <page authority='0'>GasVerification</page>
+        <page authority='0'>IOList</page>
+        <page authority='0'>UserList</page>
+        <page authority='0'>AccRole</page>
+        <page authority='0'>About</page>
+      </pages>
+    </Role>
+    <Role name='Engineer' AutoLogoutTime ='1'>
+      <pages>
+        <page authority='1'>OverView</page>
+        <page authority='1'>Chamber</page>
+        <page authority='1'>TM_LL</page>
+        <page authority='1'>EndPoint</page>
+        <page authority='1'>RecipeEditor</page>
+        <page authority='1'>SequenceEditor</page>
+        <page authority='1'>RecipeConfig</page>
+        <page authority='1'>EC</page>
+        <page authority='1'>LeakCheck</page>
+        <page authority='1'>RFCalibration</page>
+        <page authority='1'>GasVerification</page>
+        <page authority='1'>IOList</page>
+        <page authority='0'>UserList</page>
+        <page authority='0'>AccRole</page>
+        <page authority='1'>About</page>
+      </pages>
+    </Role>
+    <Role name='Manager' AutoLogoutTime ='1'>
+      <pages>
+        <page authority='2'>OverView</page>
+        <page authority='2'>Chamber</page>
+        <page authority='2'>TM_LL</page>
+        <page authority='2'>EndPoint</page>
+        <page authority='2'>RecipeEditor</page>
+        <page authority='2'>SequenceEditor</page>
+        <page authority='2'>RecipeConfig</page>
+        <page authority='2'>EC</page>
+        <page authority='2'>LeakCheck</page>
+        <page authority='2'>RFCalibration</page>
+        <page authority='2'>GasVerification</page>
+        <page authority='2'>IOList</page>
+        <page authority='1'>UserList</page>
+        <page authority='1'>AccRole</page>
+        <page authority='2'>About</page>
+      </pages>
+    </Role>
+  </Roles>
+  <authority>
+    <level id='0'>None</level>
+    <level id='1'>Read</level>
+    <level id='2'>ReadAndWrite</level>
+  </authority>
+  <defaultPage>
+    <pages>
+      <page authority='0'>OverView</page>
+      <page authority='0'>Chamber</page>
+      <page authority='0'>TM_LL</page>
+      <page authority='0'>EndPoint</page>
+      <page authority='0'>RecipeEditor</page>
+      <page authority='0'>SequenceEditor</page>
+      <page authority='0'>RecipeConfig</page>
+      <page authority='0'>EC</page>
+      <page authority='0'>LeakCheck</page>
+      <page authority='0'>RFCalibration</page>
+      <page authority='0'>GasVerification</page>
+      <page authority='0'>IOList</page>
+      <page authority='0'>UserList</page>
+      <page authority='0'>AccRole</page>
+      <page authority='0'>About</page>
+    </pages>
+  </defaultPage>
+</Data>
